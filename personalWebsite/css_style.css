@@ -1,0 +1,41 @@
+h1{
+	font-size: 70px;
+}
+h2{
+	font-size: 32px;
+}
+p{
+	line-height: 150%;
+}
+ul{
+	list-style-type: circle;
+}
+body{
+	background-color: Skyblue;
+	font-family: "Times New Roman", Times, serif;
+}
+
+header{
+	background-color: Slateblue;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+}
+
+main{
+	background-color: Slateblue;
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+}
+
+section{
+	background-color: snow;
+	border-style: double;
+	border-radius: 25px;
+	width: 520px;
+	position: top;
+	display: inline-block;
+}
+
+footer{
+	color: Slateblue;
+}
