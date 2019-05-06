@@ -33,15 +33,14 @@ section{
 	border-radius: 25px;
 	width: 520px;
 	position: top;
-	display: inline-block;
 }
 
 footer{
 	color: Slateblue;
 }
-.Nametag{
+#Nametag{
 	background: blue;
 }
-.Pagetabs{
+#Pagetabs{
 	background-color: yellow;
 }
