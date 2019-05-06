@@ -39,3 +39,9 @@ section{
 footer{
 	color: Slateblue;
 }
+.Nametag{
+	background: blue;
+}
+.Pagetabs{
+	background-color: yellow;
+}
