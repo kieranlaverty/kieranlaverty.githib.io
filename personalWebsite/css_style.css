@@ -9,21 +9,23 @@ p{
 }
 ul{
 	list-style-type: circle;
+	text-align: left;
 }
+body, header, main{
+	font-family: "Times New Roman", Times, serif;
+}
+
 body{
 	background-color: Skyblue;
-	font-family: "Times New Roman", Times, serif;
 }
 
 header{
 	background-color: Slateblue;
 	text-align: center;
-	font-family: "Times New Roman", Times, serif;
 }
 
 main{
 	background-color: Slateblue;
-	font-family: "Times New Roman", Times, serif;
 	text-align: center;
 }
 
@@ -31,8 +33,10 @@ section{
 	background-color: snow;
 	border-style: double;
 	border-radius: 25px;
-	width: 520px;
-	position: top;
+	width: 30%;
+	margin: 1%;
+	display: inline-grid;
+	vertical-align: middle;
 }
 
 footer{
@@ -40,6 +44,7 @@ footer{
 }
 #Nametag{
 	background: blue;
+	border-radius: 15%;
 }
 #Pagetabs{
 	background-color: yellow;
