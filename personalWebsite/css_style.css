@@ -1,27 +1,39 @@
+body{
+	align-items: center;
+}
+h1,h2,h3,p,ul,a{
+	color: #594157;
+	text-decoration: none;
+}
 h1{
 	font-size: 400%;
-	color: #F3F4EC;
 }
 h2{
 	font-size: 32px;
 	display: inline-block;
 	margin: 0%;
-	color: #F3F4EC;
 }
 p{
 	line-height: 150%;
-	color: #F3F4EC;
 }
 ul{
 	list-style-type: circle;
 	text-align: left;
-	color: #F3F4EC;
+}
+body{
+	background-color: #529329;
+}
+header, main{
+	background-color: #05668D;
 }
 body, header, main{
 	font-family: "Times New Roman", Times, serif;
 }
 header{
+	align-self: center;
 	text-align: center;
+	border-radius: 5%;
+	width: auto;
 }
 
 main{
@@ -30,7 +42,7 @@ main{
 	text-align: center;
 }
 
-section{
+section,footer{
 	border-style: double;
 	border-radius: 25px;
 	width: 30%;
@@ -40,33 +52,41 @@ section{
 }
 
 footer{
+	text-align: center;
+	width:auto;
 }
 #Nametag{
 	border-radius: 50%;
-	display: flex;
-	margin: 3%;
-
+	padding: 1%;
+	width: 60%;
+	margin-bottom: 3%;
+	display: inline-flex;
 }
 #Pagetabs{
 	display: inline-flex;
 }
 #currentpage{
-	background-color: #CCCFBC;
+	background-color: #26C485;
 }
 
-
-body{
-	background-color: #507642;
-}
-header, main, footer{
-	background-color: #86942A;
-}
-#Nametag, #Pagetabs, section{
-	background-color: #A37B45;
+#Nametag, #Pagetabs, section, footer{
+	background-color: #A3E7FC;
 }
 /* #507642
  #86942A
  #A37B45
  #CCCFBC
  #F3F4EC
+
+ #86942A
+ #05668D
+ #427AA1
+ EBF2FA
+ 382633
+
+ 529329
+ 05668D
+ A3E7FC
+ 26C485
+ 594157
  */
